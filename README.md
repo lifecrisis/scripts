@@ -13,7 +13,7 @@ loss.  It also means that you can clone your scripts to multiple machines
 and make use of them wherever you go!
 
 
-## Set-up
+## Installation
 
 Using this project is simple.  It should work on almost any `*nix` box you
 may encounter.  If you're a beginner, you probably don't have a `bin/`
@@ -40,7 +40,7 @@ will be overwritten.
 4. Add this line to the bottom of your `.profile` or `.bash_profile` script.
 
 ```bash
-PATH="$HOME/bin/local:$HOME/bin:$PATH"
+export PATH="$HOME/bin/local:$HOME/bin:$PATH"
 ```
 
 5. Test your installation by logging out and logging back in and then
